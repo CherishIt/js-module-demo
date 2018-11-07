@@ -8,5 +8,9 @@
 </head>
 <body>
   <div id="container"></div>
+  <script type="module">
+    import add from './add.mjs'
+    document.getElementById('container').innerText = add(1,2)
+  </script>
 </body>
 </html>
